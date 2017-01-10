@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014630DA1E2435FB00129419 /* NSString+NKJWTES256HmacSha256.m in Sources */ = {isa = PBXBuildFile; fileRef = 014630D91E2435FB00129419 /* NSString+NKJWTES256HmacSha256.m */; };
 		0A2555661ACACEE800002550 /* NKJWTBase64Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2555651ACACEE800002550 /* NKJWTBase64Tests.m */; };
 		0A2555681ACAD80C00002550 /* NKJWTHmacSha256Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2555671ACAD80C00002550 /* NKJWTHmacSha256Tests.m */; };
 		0A25556A1ACADBA200002550 /* NKJWTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2555691ACADBA200002550 /* NKJWTTests.m */; };
@@ -19,7 +20,8 @@
 		0A8DC76E1ACAA3B5002DDA5E /* NKJWT.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8DC76D1ACAA3B5002DDA5E /* NKJWT.m */; };
 		0A8DC7711ACAA7C1002DDA5E /* NSString+NKJWTBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8DC7701ACAA7C1002DDA5E /* NSString+NKJWTBase64.m */; };
 		0A8DC7741ACAAEE7002DDA5E /* NSString+NKJWTHmacSha256.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8DC7731ACAAEE7002DDA5E /* NSString+NKJWTHmacSha256.m */; };
-		386F184A412B7B99B30D9C5A /* libPods-NKJWTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9077C520389329ECC5A8F608 /* libPods-NKJWTTests.a */; };
+		209F586120D02B6C59BEE887 /* libPods-NKJWT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 728123A42ED4EDF575AC931D /* libPods-NKJWT.a */; };
+		E485D4DE69A1442EA97CF4CF /* libPods-NKJWTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B22E943DFE1C2DBBB570930 /* libPods-NKJWTTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		014630D81E2435FB00129419 /* NSString+NKJWTES256HmacSha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NKJWTES256HmacSha256.h"; sourceTree = "<group>"; };
+		014630D91E2435FB00129419 /* NSString+NKJWTES256HmacSha256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NKJWTES256HmacSha256.m"; sourceTree = "<group>"; };
+		04C315208EBC872F128E753A /* Pods-NKJWTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKJWTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NKJWTTests/Pods-NKJWTTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0A2555651ACACEE800002550 /* NKJWTBase64Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKJWTBase64Tests.m; sourceTree = "<group>"; };
 		0A2555671ACAD80C00002550 /* NKJWTHmacSha256Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKJWTHmacSha256Tests.m; sourceTree = "<group>"; };
 		0A2555691ACADBA200002550 /* NKJWTTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKJWTTests.m; sourceTree = "<group>"; };
@@ -54,9 +59,11 @@
 		0A8DC7701ACAA7C1002DDA5E /* NSString+NKJWTBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NKJWTBase64.m"; sourceTree = "<group>"; };
 		0A8DC7721ACAAEE7002DDA5E /* NSString+NKJWTHmacSha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NKJWTHmacSha256.h"; sourceTree = "<group>"; };
 		0A8DC7731ACAAEE7002DDA5E /* NSString+NKJWTHmacSha256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NKJWTHmacSha256.m"; sourceTree = "<group>"; };
-		295BD2FBF4685D23F2C2CDBF /* Pods-NKJWTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKJWTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NKJWTTests/Pods-NKJWTTests.debug.xcconfig"; sourceTree = "<group>"; };
-		606FEC3984D4B8085E8BEBB0 /* Pods-NKJWTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKJWTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NKJWTTests/Pods-NKJWTTests.release.xcconfig"; sourceTree = "<group>"; };
-		9077C520389329ECC5A8F608 /* libPods-NKJWTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NKJWTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DACF43DCF68BAB8B7004C4A /* Pods-NKJWTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKJWTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NKJWTTests/Pods-NKJWTTests.release.xcconfig"; sourceTree = "<group>"; };
+		728123A42ED4EDF575AC931D /* libPods-NKJWT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NKJWT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B22E943DFE1C2DBBB570930 /* libPods-NKJWTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NKJWTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9117D73DBB6DED67DF5D108 /* Pods-NKJWT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKJWT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NKJWT/Pods-NKJWT.debug.xcconfig"; sourceTree = "<group>"; };
+		DA08DB804B49DAC234EC6061 /* Pods-NKJWT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKJWT.release.xcconfig"; path = "Pods/Target Support Files/Pods-NKJWT/Pods-NKJWT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209F586120D02B6C59BEE887 /* libPods-NKJWT.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				386F184A412B7B99B30D9C5A /* libPods-NKJWTTests.a in Frameworks */,
+				E485D4DE69A1442EA97CF4CF /* libPods-NKJWTTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,8 +93,8 @@
 				0A8DC7441ACAA369002DDA5E /* NKJWT */,
 				0A8DC75E1ACAA369002DDA5E /* NKJWTTests */,
 				0A8DC7431ACAA369002DDA5E /* Products */,
-				DF13272BDB555646C530BAAE /* Pods */,
-				9D296700006E701987228236 /* Frameworks */,
+				F012439D9627F200DB0537B8 /* Pods */,
+				4F1A830AF130A6581C2D806D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +153,8 @@
 		0A8DC76B1ACAA385002DDA5E /* src */ = {
 			isa = PBXGroup;
 			children = (
+				014630D81E2435FB00129419 /* NSString+NKJWTES256HmacSha256.h */,
+				014630D91E2435FB00129419 /* NSString+NKJWTES256HmacSha256.m */,
 				0A8DC76C1ACAA3B5002DDA5E /* NKJWT.h */,
 				0A8DC76D1ACAA3B5002DDA5E /* NKJWT.m */,
 				0A8DC76F1ACAA7C1002DDA5E /* NSString+NKJWTBase64.h */,
@@ -155,19 +165,22 @@
 			path = src;
 			sourceTree = "<group>";
 		};
-		9D296700006E701987228236 /* Frameworks */ = {
+		4F1A830AF130A6581C2D806D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9077C520389329ECC5A8F608 /* libPods-NKJWTTests.a */,
+				728123A42ED4EDF575AC931D /* libPods-NKJWT.a */,
+				7B22E943DFE1C2DBBB570930 /* libPods-NKJWTTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF13272BDB555646C530BAAE /* Pods */ = {
+		F012439D9627F200DB0537B8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				295BD2FBF4685D23F2C2CDBF /* Pods-NKJWTTests.debug.xcconfig */,
-				606FEC3984D4B8085E8BEBB0 /* Pods-NKJWTTests.release.xcconfig */,
+				A9117D73DBB6DED67DF5D108 /* Pods-NKJWT.debug.xcconfig */,
+				DA08DB804B49DAC234EC6061 /* Pods-NKJWT.release.xcconfig */,
+				04C315208EBC872F128E753A /* Pods-NKJWTTests.debug.xcconfig */,
+				3DACF43DCF68BAB8B7004C4A /* Pods-NKJWTTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -179,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A8DC7651ACAA369002DDA5E /* Build configuration list for PBXNativeTarget "NKJWT" */;
 			buildPhases = (
+				03886C29ABFA645A00D27506 /* [CP] Check Pods Manifest.lock */,
 				0A8DC73E1ACAA369002DDA5E /* Sources */,
 				0A8DC73F1ACAA369002DDA5E /* Frameworks */,
 				0A8DC7401ACAA369002DDA5E /* Resources */,
+				D19AC9CC568B3553C72A63AC /* [CP] Embed Pods Frameworks */,
+				75A06F834FF9A70E3B507E84 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,11 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A8DC7681ACAA369002DDA5E /* Build configuration list for PBXNativeTarget "NKJWTTests" */;
 			buildPhases = (
-				839FE47C787A578945DEA414 /* Check Pods Manifest.lock */,
+				7063210E2B4C18F9E4908C64 /* [CP] Check Pods Manifest.lock */,
 				0A8DC7571ACAA369002DDA5E /* Sources */,
 				0A8DC7581ACAA369002DDA5E /* Frameworks */,
 				0A8DC7591ACAA369002DDA5E /* Resources */,
-				F1A889C566B10AC9013DD459 /* Copy Pods Resources */,
+				46A887656D142990A1EA6776 /* [CP] Embed Pods Frameworks */,
+				D04C924B8DF6A6D6695E1F3C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,34 +287,94 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		839FE47C787A578945DEA414 /* Check Pods Manifest.lock */ = {
+		03886C29ABFA645A00D27506 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F1A889C566B10AC9013DD459 /* Copy Pods Resources */ = {
+		46A887656D142990A1EA6776 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NKJWTTests/Pods-NKJWTTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7063210E2B4C18F9E4908C64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75A06F834FF9A70E3B507E84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NKJWT/Pods-NKJWT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D04C924B8DF6A6D6695E1F3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NKJWTTests/Pods-NKJWTTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D19AC9CC568B3553C72A63AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NKJWT/Pods-NKJWT-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -313,6 +390,7 @@
 				0A8DC74B1ACAA369002DDA5E /* AppDelegate.m in Sources */,
 				0A8DC7741ACAAEE7002DDA5E /* NSString+NKJWTHmacSha256.m in Sources */,
 				0A8DC7481ACAA369002DDA5E /* main.m in Sources */,
+				014630DA1E2435FB00129419 /* NSString+NKJWTES256HmacSha256.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +514,7 @@
 		};
 		0A8DC7661ACAA369002DDA5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9117D73DBB6DED67DF5D108 /* Pods-NKJWT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NKJWT/Info.plist;
@@ -446,6 +525,7 @@
 		};
 		0A8DC7671ACAA369002DDA5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA08DB804B49DAC234EC6061 /* Pods-NKJWT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NKJWT/Info.plist;
@@ -456,7 +536,7 @@
 		};
 		0A8DC7691ACAA369002DDA5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 295BD2FBF4685D23F2C2CDBF /* Pods-NKJWTTests.debug.xcconfig */;
+			baseConfigurationReference = 04C315208EBC872F128E753A /* Pods-NKJWTTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -476,7 +556,7 @@
 		};
 		0A8DC76A1ACAA369002DDA5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 606FEC3984D4B8085E8BEBB0 /* Pods-NKJWTTests.release.xcconfig */;
+			baseConfigurationReference = 3DACF43DCF68BAB8B7004C4A /* Pods-NKJWTTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

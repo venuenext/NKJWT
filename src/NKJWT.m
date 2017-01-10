@@ -11,6 +11,7 @@
 #import "NKJWT.h"
 #import "NSString+NKJWTBase64.h"
 #import "NSString+NKJWTHmacSha256.h"
+#import "NSString+NKJWTES256HmacSha256.h"
 
 @interface NKJWT()
 #pragma mark - properties
@@ -150,6 +151,10 @@
 
 - (BOOL)verify
 {
+    if ([_header[@"alg"] isEqual: @"ES256"]) {
+        return [self.signature NKJWTValidateES256withPublicKey:self.key forData:[[NSString stringWithFormat:@"%@.%@", self.base64Header, self.base64Payload] dataUsingEncoding:NSUTF8StringEncoding]];
+    }
+    
     NSString *sig = [self calculateSignature];
     return [self.signature isEqualToString:sig];
 }

@@ -2,7 +2,7 @@
 # platform :ios, '6.0'
 
 target 'NKJWT' do
-
+    pod 'GMEllipticCurveCrypto', '~> 1.3'
 end
 
 target 'NKJWTTests' do
